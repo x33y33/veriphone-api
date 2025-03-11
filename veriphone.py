@@ -11,7 +11,7 @@ if lang == "ru":
     phone = input("Введите номер телефона (ex. +1234567890, 1234567890, 80234567890): ")
 
 
-key = '2B730D4D8D0645E299A5CABC000F2443' # Key API from https://veriphone.io/cp
+key = 'YOUR_API_TOKEN' # Key API from https://veriphone.io/cp
 default_country = '375' # Default country key
 url = '/v2/verify?phone='+phone+'&key='+key+'&default_country='+default_country # URL
 conn.request("GET", url) # Get data from URL
