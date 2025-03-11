@@ -25,6 +25,7 @@ git clone https://github.com/x33y33/veriphone-api.git
 ```
 cd veriphone-api-main
 ```
+```
 pip install -r requirements.txt
 ```
 ```
